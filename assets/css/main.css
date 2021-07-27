@@ -1946,12 +1946,27 @@ input, select, textarea {
 	.home-container {
 		display: flex;
 		justify-content: center;
+		justify-content: space-evenly;
 	}
 
 	.home-container1 {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		text-align: center;
+	}
+
+	.headerdivider { 
+	border-left: 1px solid #a5b8d6; 
+	background: #16222c; 
+	width: 1px; 
+	height: 20rem; 
+	right: 250px; 
+	top: 10px; } 
+
+	.home-container2 {
+		display: flex;
+		flex-direction: column;
 	}
 
 	#main {
