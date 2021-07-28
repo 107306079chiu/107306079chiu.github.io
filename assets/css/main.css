@@ -1945,15 +1945,45 @@ input, select, textarea {
 
 	.home-container {
 		display: flex;
-		justify-content: center;
-		justify-content: space-evenly;
-	}
-
-	.home-container1 {
-		display: flex;
 		flex-direction: column;
 		justify-content: center;
+	}
+
+	.home-container-pf {
+		display: flex;
+		justify-content: center;
 		text-align: center;
+	}
+
+	.home-container-name {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+		margin-bottom: 60px;
+	}
+
+	.home-container-des {
+		display: flex;
+		text-align: left;
+		justify-content:center;
+	}
+
+	.home-container-h3 {
+		width: 7em;
+		text-align: center;
+	}
+
+	.home-container-h5 {
+		font-size: 1.1em;
+		color: #a5b8d6;
+	}
+
+	.home-container-pg {
+		flex-direction: column;
+		font-size: 0.9em;
+		width: 30em;
+		text-align: left;
 	}
 
 	.headerdivider { 
@@ -1964,7 +1994,16 @@ input, select, textarea {
 	right: 250px; 
 	top: 10px; } 
 
-	.home-container2 {
+	.home-divider {
+		background: #a5b8d6;
+		height: 1px;
+		margin-bottom: 22px;
+		margin-top: 22px;
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
+	.home-container-exp {
 		display: flex;
 		flex-direction: column;
 	}
