@@ -1732,6 +1732,10 @@ input, select, textarea {
 
 /* Icons */
 
+	.icon-word {
+		text-decoration:none;
+	}
+
 	.icon {
 		text-decoration: none;
 		position: relative;
@@ -1953,20 +1957,44 @@ input, select, textarea {
 		display: flex;
 		justify-content: center;
 		text-align: center;
+		align-items: center;
 	}
 
-	.home-container-name {
+	.home-container-pf1 {
 		display: flex;
-		justify-content: center;
-		text-align: center;
 		flex-direction: column;
-		margin-bottom: 60px;
+		margin-left: 2em;
+		text-align: left;
+	}
+
+	.home-container-pf2 {
+		margin-top: 1em;
+		display: flex;
+		align-items: center;
+	}
+
+	.home-container-pf3 {
+		color: #98aed8;
+		margin-right: 4px;
+	}
+
+	.home-container-pf4 {
+		color: #98aed8;
+		border-color: #a5b8d6;
+		border-width: 1px;
+		border-radius: 15px;
 	}
 
 	.home-container-des {
 		display: flex;
 		text-align: left;
 		justify-content:center;
+		border-style: solid;
+		/*border-color: #a5b8d6;
+		border-width: 1px;
+		border-radius: 15px;*/
+		margin-left: 1.5em;
+		margin-right: 1.5em;
 	}
 
 	.home-container-h3 {
@@ -1995,8 +2023,8 @@ input, select, textarea {
 	top: 10px; } 
 
 	.home-divider {
-		background: #a5b8d6;
-		height: 1px;
+		background: #c5d1e8;/*#a5b8d6*/
+		height: 1.5px;
 		margin-bottom: 22px;
 		margin-top: 22px;
 		margin-left: 60px;
