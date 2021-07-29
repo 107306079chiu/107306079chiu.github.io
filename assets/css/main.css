@@ -1971,6 +1971,7 @@ input, select, textarea {
 		margin-top: 1em;
 		display: flex;
 		align-items: center;
+		flex-direction: row;
 	}
 
 	.home-container-pf3 {
