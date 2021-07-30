@@ -826,11 +826,8 @@ input, select, textarea {
 		}
 
 		.pj-page-2 {
-			border-bottom: solid;
-			border-top: solid;
-			border-color: #f7f8fa;
-			border-width: .5em;
 			width: 100%;
+			border-radius: 15px;
 		}
 
 		@media screen and (max-width: 980px) {
