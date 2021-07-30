@@ -805,6 +805,34 @@ input, select, textarea {
 
 		}
 
+		.pj-page {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			justify-content: center;
+		}
+
+		.pj-page-1 { /* for img+words */
+			display: flex;
+			flex-direction: column;
+			width: 45%;
+			align-items: center;
+			margin: 0 1em 2em 1em;
+		}
+
+		.pj-page-1:hover { /* for img+words 動畫*/
+			transform: scale(1.01);
+			box-shadow: .3em .3em .3em #f7f8fa;
+		}
+
+		.pj-page-2 {
+			border-bottom: solid;
+			border-top: solid;
+			border-color: #f7f8fa;
+			border-width: .5em;
+			width: 100%;
+		}
+
 		@media screen and (max-width: 980px) {
 
 			.row {
