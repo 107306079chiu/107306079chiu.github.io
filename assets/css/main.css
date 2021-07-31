@@ -827,7 +827,7 @@ input, select, textarea {
 
 		.pj-page-2 {
 			width: 100%;
-			border-radius: 15px;
+			border-radius: 15px 15px 0 0;
 		}
 
 		@media screen and (max-width: 980px) {
