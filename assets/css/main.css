@@ -817,7 +817,7 @@ input, select, textarea {
 			flex-direction: column;
 			width: 45%;
 			align-items: center;
-			margin: 0 1em 2em 1em;
+			margin: 0 1em 1em 1em;
 		}
 
 		.pj-page-1:hover { /* for img+words 動畫*/
