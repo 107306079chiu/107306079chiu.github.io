@@ -2086,8 +2086,12 @@ input, select, textarea {
 	.home-container-pg {
 		flex-direction: column;
 		font-size: 0.9em;
-		width: 30em;
+		/*width: 30em;*/
 		text-align: left;
+	}
+
+	.home-container-pg1 {
+		font-size: 0.9em;
 	}
 
 	.headerdivider { 
