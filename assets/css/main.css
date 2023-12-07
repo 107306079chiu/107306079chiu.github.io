@@ -2350,6 +2350,10 @@ header h6 + p {
   padding: 4em 5em 0 5em;
   align-items: center;
 }
+.profile .link:hover {
+  color: #648B56;
+}
+
 
 /* Publications */
 .publications > section {
@@ -2379,6 +2383,11 @@ header h6 + p {
   line-height: 1;
   color: #808080;
 }
+@media screen and (max-width: 736px) {
+  .publications > section {
+    padding: 2em 2em 0 2em;
+  }
+}
 
 /* Projects */
 .projects > section {
@@ -2401,6 +2410,12 @@ header h6 + p {
   font-size: .75em;
   line-height: 1.2;
 }
+@media screen and (max-width: 736px) {
+  .projects > section {
+    padding: 2em 2em 0 2em;
+  }
+}
+
 
 /* Spotlights */
 .spotlights > section {
